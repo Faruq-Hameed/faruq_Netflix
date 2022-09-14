@@ -398,7 +398,7 @@ h3{
 
 .help-container input[type=email], .find-container label, .find-container input, #email-me{
     width: 100%;
-    height: max(20px, 4vw);
+    height: clamp(50px, 5vw, 80px);
 }
 
 #email-me{
