@@ -71,7 +71,7 @@ header a:hover{
 }
 
 .header-btn button{
-    width: 7vw;
+    width: fit-content;
     height: inherit;
     padding: 0.5vw;
     font-size: large;
@@ -115,15 +115,14 @@ form p{
 .signup-email{
     /* width: min(500px, 65%) clamp( 280px, 450px, 90%); */
         width: clamp( 280px, 450px, 100%);
-
-    height: clamp(20px, 4vw, 90px);
+        height: clamp(50px, 5vw, 80px);
     
     
 }
 
 .signup-submit{
     width: fit-content;
-    height: clamp(30px, 4.5vw, 90px);
+    height: clamp(50px, 5vw, 80px);
     background-color: red;
     color: #ffff;
     font-weight: 700;
